@@ -1,0 +1,88 @@
+/*****EXPERIENCE START****/
+#experience {
+    background-color: var(--drk-900);
+
+    .experience__wrapper {
+        padding-bottom: 96px;
+
+        .centr {
+            text-align: center;
+            padding-top: 96px;
+
+            .spn {
+                padding: 10px 15px;
+                border-radius: 12px;
+                font-size: 14px;
+                background-color: var(--drk-700);
+
+                a {
+                    font-family: 'inter';
+                    color: var(--lgt-600);
+                    text-decoration: none;
+                }
+            }
+
+            h2 {
+                font-size: 20px;
+                font-weight: 400;
+                margin-top: 16px;
+                font-family: 'inter';
+                color: var(--lgt-600);
+            }
+        }
+
+        .uzmcard {
+            display: flex;
+            justify-content: space-between;
+            width: 896px;
+            height: 288px;
+            margin: 48px auto;
+            padding: 32px;
+            border-radius: 0 0 8px 8px;
+            box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+
+            div {
+                h2 {
+                    font-size: 20px;
+                    font-weight: 600;
+                    font-family: 'inter';
+                    color: var(--lgt-900);
+                    margin-bottom: 16px;
+                    margin-left: -15px;
+                }
+
+                ul {
+                    width: 80%;
+                    font-family: 'inter';
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 24px;
+                    color: var(--lgt-600);
+                    margin-bottom: 4px;
+                }
+            }
+
+            div {
+                span {
+                    font-family: 'inter';
+                    font-weight: 400;
+                    font-size: 16px;
+                    color: var(--lgt-700);
+                }
+            }
+        }
+
+        .smd {
+            height: 180px;
+        }
+    }
+
+}
+@media (prefers-color-scheme: dark) {
+    #experience{
+        background-color: #030712;
+
+        
+    }
+}
+/*****EXPERIENCE AND****/

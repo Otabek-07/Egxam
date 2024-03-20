@@ -1,0 +1,102 @@
+/***** WORK START ***/
+#work {
+    background-color: var(--drk-950);
+
+    .centr {
+        text-align: center;
+        padding-top: 96px;
+
+        .spn {
+            padding: 10px 15px;
+            border-radius: 12px;
+            font-size: 14px;
+            background-color: var(--drk-700);
+
+            a {
+                font-family: 'inter';
+                color: var(--lgt-600);
+                text-decoration: none;
+            }
+        }
+
+        h2 {
+            font-size: 20px;
+            font-weight: 400;
+            margin-top: 16px;
+            font-family: 'inter';
+            color: var(--lgt-600);
+        }
+    }
+
+    .work__wrapper {
+        display: flex;
+        justify-content: center;
+        padding-top: 48px;
+        margin-bottom: 96px;
+
+        .left {
+            width: 576px;
+            height: 480px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: var(--drk-700);
+            box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+        }
+
+        .right {
+            width: 576px;
+            height: 480px;
+            padding: 48px 48px 100px;
+            box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+
+            h2 {
+                font-family: 'inter';
+                font-weight: 600;
+                font-size: 20px;
+                margin-bottom: 24px;
+            }
+
+            p {
+                font-family: 'inter';
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+                margin-bottom: 24px;
+            }
+
+            .btn {
+                padding: 8px 20px;
+                border-radius: 12px;
+                border: none;
+                margin-right: 12px;
+                margin-bottom: 8px;
+                background-color: var(--drk-700);
+
+                a {
+                    text-decoration: none;
+                    color: var(--lgt-600);
+
+                    &:hover {
+                        color: var(--lgt-950);
+                        font-weight: 600;
+                    }
+                }
+            }
+
+            a {
+                img {
+                    margin-top: 24px;
+                }
+            }
+        }
+    }
+}
+@media (prefers-color-scheme: dark) {
+    #work{
+        background-color: #030712;
+
+        
+    }
+}
+/***** WORK AND ***/

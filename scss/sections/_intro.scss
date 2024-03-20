@@ -1,0 +1,135 @@
+/***** INTRO START****/
+#intro {
+    background-color: var(--drk-950);
+
+    .intro__wrapper {
+        display: flex;
+        align-items: center;
+        padding-top: 96px;
+        padding-bottom: 96px;
+
+        .left {
+            width: 768px;
+            order: 1;
+           
+            h1 {
+                font-size: 60px;
+                font-weight: 700;
+                font-family: 'inter';
+                margin-top: 106px;
+                margin-bottom: 8px;
+            }
+
+            p {
+                font-size: 16px;
+                font-weight: 400;
+                font-family: 'inter';
+                color: var(--lgt-600);
+                line-height: 24px;
+                margin-bottom: 48px;
+            }
+
+            .joylashuv {
+                display: flex;
+                align-items: center;
+                margin-top: 8px;
+                gap: 8px;
+
+                .round {
+                    width: 10px;
+                    height: 10px;
+                    border-radius: 50%;
+                    background-color: var(--drk-220);
+                    margin-left: 5px;
+                }
+
+                span {
+                    font-size: 16px;
+                    font-weight: 400;
+                    font-family: 'inter';
+                    color: var(--lgt-600);
+                }
+
+                .gp {
+                    margin-left: 10px;
+                }
+            }
+
+            .link {
+                display: flex;
+                align-items: center;
+                gap: 15px;
+
+                padding-top: 48px;
+                padding-bottom: 106px;
+            }
+
+        }
+
+        .right {
+            width: 400px;
+            position: relative;
+            margin-left: 100px;
+            order: 2;
+
+
+            .imgtop {
+                position: absolute;
+                left: -40px;
+                top: -40px;
+                transition: all 0.5s ease;
+
+                &:hover {
+                    left: 0;
+                    top: 0;
+                }
+
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:769px) {
+     .intro__wrapper{
+        display: flex;
+        width: auto;
+
+       
+     }
+   
+}
+@media only screen and (max-width:576px) {
+     .intro__wrapper{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        padding-left: 50px;
+
+       
+     }
+   
+}
+@media only screen and (max-width:375px) {
+     .intro__wrapper{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        padding-left: 80px;
+
+       
+     }
+   
+}
+@media (prefers-color-scheme: dark) {
+    #intro{
+        background-color: #030712;
+
+        
+    }
+}
+
+
+
+/***** INTRO AND****/

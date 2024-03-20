@@ -1,0 +1,140 @@
+/***** ABOUTME START****/
+#aboutme {
+    background-color: var(--drk-900);
+
+    .centr_wrapper {
+
+        // display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 96px;
+
+        .centr {
+            text-align: center;
+            font-size: 14px;
+            font-weight: 500;
+            font-family: 'inter';
+            border-radius: 18px;
+            padding: 10px 20px;
+            background-color: var(--drk-700);
+
+            a {
+                color: var(--lgt-600);
+                text-decoration: none;
+            }
+        }
+    }
+
+    .aboutme__wrapper {
+        
+        align-items: center;
+        justify-content: center;
+        margin-top: 48px;
+        padding-bottom: 96px;
+        flex-wrap: wrap ;
+
+        .left {
+            width: 584px;
+            position: relative;
+
+            .imgto {
+                position: absolute;
+                top: -40px;
+                left: 40px;
+                transition: all 0.7s ease-in-out;
+
+                &:hover {
+                    top: 0;
+                    left: 0;
+                }
+            }
+        }
+
+        .right {
+            width: 584px;
+
+            h2 {
+                font-family: 'inter';
+                font-size: 30px;
+                font-weight: 600;
+                color: var(--lgt-900);
+                margin-bottom: 24px;
+            }
+
+            p {
+                font-family: 'inter';
+                font-weight: 400;
+                line-height: 24px;
+                font-size: 16px;
+                margin-bottom: 16px;
+                color: var(--lgt-600);
+
+            }
+
+            .list {
+                display: flex;
+                gap: 50px;
+                margin-bottom: 16px;
+
+                ul {
+                    li {
+                        color: var(--lgt-600);
+                        margin-bottom: 10px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:769px){
+    #aboutme {
+        .container{
+            // flex-wrap: wrap;
+
+            .aboutme__wrapper{
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+    }
+    
+}
+@media only screen and (max-width: 576px){
+    #aboutme {
+        .container{
+            .aboutme__wrapper{
+                display: flex;
+                flex-direction: column !important;
+                justify-content: center;
+                align-items: center;
+                padding-left: 50px;
+            }
+        }
+    }
+    
+}
+@media only screen and (max-width: 375px){
+    #aboutme {
+        .container{
+            .aboutme__wrapper{
+                display: flex;
+                flex-direction: column !important;
+                justify-content: center;
+                align-items: center;
+                padding-left: 50px;
+            }
+        }
+    }
+    
+}
+@media (prefers-color-scheme: dark) {
+    #aboutme{
+        background-color: #030712;
+
+        
+    }
+}
+/***** ABOUTME AND****/

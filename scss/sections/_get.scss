@@ -1,0 +1,90 @@
+#get {
+    background-color: var(--drk-950);
+
+    .wrapper {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+
+        .blok {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+
+            button {
+                text-align: center;
+                padding: 8px 10px;
+                border: none;
+                background-color: var(--drk-500);
+                font-family: 'inter';
+                font-weight: 500;
+                font-size: 14px;
+                border-radius: 12px;
+                margin-top: 96px;
+
+                a {
+                    text-decoration: none;
+                    color: var(--lgt-600);
+                }
+            }
+
+            p {
+                padding: 16px 335px;
+                font-family: 'inter';
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 28px;
+                margin-bottom: 50px;
+                color: var(--lgt-600);
+            }
+
+        }
+
+        .center {
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 8px;
+            color: var(--drk-50);
+            margin-bottom: 18px;
+
+            h2 {
+                font-size: 36px;
+                font-weight: 600;
+                font-family: 'inter';
+                color: var(--drk-50);
+            }
+
+        }
+
+
+        .pas {
+            p {
+                font-weight: 400;
+                font-family: 'inter';
+                font-size: 16px;
+                color: var(--lgt-600);
+                margin-top: 48px;
+                margin-bottom: 15px;
+            }
+
+            .git {
+                img {
+                    margin-right: 10px;
+                    margin-bottom: 96px;
+                }
+            }
+        }
+    }
+}
+@media (prefers-color-scheme: dark) {
+    #get{
+        background-color: #030712;
+
+        
+    }
+}

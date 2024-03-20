@@ -1,0 +1,55 @@
+/****SKILLS START***/
+#skills {
+    background-color: var(--drk-950);
+    flex-wrap: wrap;
+
+    .centr {
+        text-align: center;
+        padding-top: 96px;
+
+
+        .spn {
+            padding: 5px 15px;
+            border-radius: 12px;
+            font-size: 14px;
+            background-color: var(--drk-700);
+
+            a {
+                color: var(--lgt-600);
+                font-family: 'inter';
+                text-decoration: none;
+            }
+        }
+
+        h2 {
+            font-size: 20px;
+            font-weight: 400;
+            margin-top: 16px;
+            font-family: 'inter';
+            color: var(--lgt-600);
+        }
+    }
+
+    .skills__wrapper {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(70px, 1fr));
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 86px;
+        grid-row-gap: 48px;
+        place-content: center;
+        text-align: center;
+        flex-wrap: wrap;
+
+
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    #skills {
+        background-color: #030712;
+
+
+    }
+}
+
+/****SKILLS AND***/
